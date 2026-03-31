@@ -108,9 +108,9 @@ python -m moonshine_voice.mic_transcriber --language ja
 ## Phase 4：VLM（画面認識）統合 📋 予定
 
 - 採用モデル候補：Qwen2-VL 7B（4bit量子化 / 5GB VRAM）
-- DEFYがゲーム画面のスクリーンショットを差分検出で3台目に送信
-- VLMで解析した結果を構造化JSONでDEFYに返し、RPK-16への負担を最小化
-
+- DEFYがゲーム画面のスクリーンショットを差分検出する
+- VLMで解析した結果を構造化JSONで返す
+  
 ---
 
 ## Phase 5：LoRAファインチューニング 📋 予定
