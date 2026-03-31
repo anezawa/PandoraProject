@@ -107,8 +107,6 @@ python -m moonshine_voice.mic_transcriber --language ja
 
 ## Phase 4：VLM（画面認識）統合 📋 予定
 
-**前提条件**: 3台目PCへのRTX 5070Ti入手後
-
 - 採用モデル候補：Qwen2-VL 7B（4bit量子化 / 5GB VRAM）
 - DEFYがゲーム画面のスクリーンショットを差分検出で3台目に送信
 - VLMで解析した結果を構造化JSONでDEFYに返し、RPK-16への負担を最小化
