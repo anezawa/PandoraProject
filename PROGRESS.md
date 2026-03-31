@@ -115,7 +115,7 @@ python -m moonshine_voice.mic_transcriber --language ja
 
 ## Phase 5：LoRAファインチューニング 📋 予定
 
-- ファインチューニング実行PC：3台目（RTX 5070Ti入手後）
+- ファインチューニング実行PC：DEFY
 - 必要データ量：RPK-16のセリフ・会話データ 500〜1000サンプル
 - 現在のRAGDBへの会話ログ蓄積が学習データ収集を兼ねている
 
